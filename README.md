@@ -11,12 +11,12 @@
 [npm-url]: https://npmjs.org/package/node-dd
 [travis-image]: https://img.shields.io/travis/taoqf/node-dingtalk.svg?style=flat-square
 [travis-url]: https://travis-ci.org/taoqf/node-dingtalk
-[codecov-image]: https://img.shields.io/codecov/c/github/ali-sdk/node-dingtalk.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/ali-sdk/node-dingtalk?branch=master
-[david-image]: https://img.shields.io/david/ali-sdk/node-dingtalk.svg?style=flat-square
-[david-url]: https://david-dm.org/ali-sdk/node-dingtalk
-[snyk-image]: https://snyk.io/test/npm/node-dingtalk/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/node-dingtalk
+[codecov-image]: https://img.shields.io/codecov/c/github/taoqf/node-dingtalk.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/taoqf/node-dingtalk?branch=master
+[david-image]: https://img.shields.io/david/taoqf/node-dingtalk.svg?style=flat-square
+[david-url]: https://david-dm.org/taoqf/node-dingtalk
+[snyk-image]: https://snyk.io/test/npm/node-dd/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/node-dd
 [download-image]: https://img.shields.io/npm/dm/node-dingtalk.svg?style=flat-square
 [download-url]: https://npmjs.org/package/node-dd
 
