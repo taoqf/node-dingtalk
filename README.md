@@ -17,7 +17,7 @@
 [david-url]: https://david-dm.org/taoqf/node-dingtalk
 [snyk-image]: https://snyk.io/test/npm/node-dd/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/node-dd
-[download-image]: https://img.shields.io/npm/dm/node-dingtalk.svg?style=flat-square
+[download-image]: https://img.shields.io/npm/dm/node-dd.svg?style=flat-square
 [download-url]: https://npmjs.org/package/node-dd
 
 ## Install
