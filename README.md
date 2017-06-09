@@ -1,4 +1,4 @@
-# node-dingtalk - [钉钉SDK](https://open-doc.dingtalk.com)
+# node-dd - [钉钉SDK](https://open-doc.dingtalk.com)
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
