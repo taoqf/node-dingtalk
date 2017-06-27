@@ -7,7 +7,8 @@
 	"dependencies": {
 		"agentkeepalive": "latest",
 		"formstream": "latest",
-		"sha1": "latest"
+		"sha1": "latest",
+		"urllib": "latest"
 	},
 	"devDependencies": {
 		"@types/assert": "latest",
