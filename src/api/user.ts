@@ -7,8 +7,10 @@ export interface User {
 	userid: string;	// 员工唯一标识ID（不可修改）
 	name: string;	// 成员名称
 }
-export interface UserDetail {
-	userid: string;	//	员工唯一标识ID（不可修改）
+
+export interface UserDetail extends User {
+	unionid: string;
+	openId: string;
 	order: number;	//	表示人员在此部门中的排序，列表是按order的倒序排列输出的，即从大到小排列输出的
 	dingId: string;	//	钉钉ID
 	mobile: string;	//	手机号（ISV不可见）
@@ -19,10 +21,8 @@ export interface UserDetail {
 	isBoss: boolean;	//	是否为企业的老板, true表示是, false表示不是
 	isHide: boolean;	//	是否隐藏号码, true表示是, false表示不是
 	isLeader: boolean;	//	是否是部门的主管, true表示是, false表示不是
-	name: string;	//	成员名称
 	active: boolean;	// 表示该用户是否激活了钉钉
 	department: number;	// 成员所属部门id列表
-	position: string;	// 职位信息
 	email: string;	// 员工的邮箱
 	orgEmail: string;	// 员工的企业邮箱
 	avatar: string;	// 头像url
@@ -105,7 +105,7 @@ export class UserHelper {
 	 * @return {Object} 成员列表 { userlist: [], queryCount }
 	 */
 	listAll(departmentId?: number, opts?: ListAllOption) {
-		return this.list_all(departmentId, false, opts);
+		return this.list_all<UserDetail>(departmentId, false, opts);
 	}
 
 	private async list_all<T extends User>(departmentId?: number, simple?: boolean, opts?: ListAllOption) {
